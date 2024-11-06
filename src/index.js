@@ -4,9 +4,10 @@ import {
   BrowserRouter as Router,
   Route,
   Switch,
-  Redirect,
 } from 'react-router-dom'
-
+import Amplify from 'aws-amplify';
+import { withAuthenticator } from '@aws-amplify/ui-react';
+import awsExports from './aws-exports';
 import './style.css'
 import FormTemplates from './views/form-templates'
 import WorkflowOverview from './views/workflow-overview'
@@ -21,8 +22,7 @@ import DocumentCreation from './views/document-creation'
 import AccountCreationInformation from './views/account-creation-information'
 import Workflow3 from './views/workflow-3'
 import NotFound from './views/not-found'
-import Amplify from 'aws-amplify';
-import awsExports from './aws-exports'; 
+
 Amplify.configure(awsExports);
 
 const App = () => {
@@ -45,11 +45,12 @@ const App = () => {
           path="/account-creation-information"
         />
         <Route component={Workflow3} exact path="/workflow-3" />
-        <Route component={NotFound} path="**" />
-        <Redirect to="**" />
+        <Route component={NotFound} />
       </Switch>
     </Router>
   )
 }
 
-ReactDOM.render(<App />, document.getElementById('app'))
+const AppWithAuth = withAuthenticator(App);
+
+ReactDOM.render(<AppWithAuth />, document.getElementById('root'))
