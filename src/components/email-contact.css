@@ -1,0 +1,188 @@
+.email-contact-contact1 {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+}
+.email-contact-section-title {
+  gap: var(--dl-space-space-unit);
+  align-items: center;
+}
+.email-contact-content {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+.email-contact-form {
+  gap: var(--dl-space-space-oneandhalfunits);
+  width: 100%;
+}
+.email-contact-container1 {
+  gap: var(--dl-space-space-unit);
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.email-contact-input1 {
+  gap: var(--dl-space-space-halfunit);
+  width: 50%;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.email-contact-input2 {
+  gap: var(--dl-space-space-halfunit);
+  width: 50%;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.email-contact-container2 {
+  gap: var(--dl-space-space-unit);
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.email-contact-input3 {
+  gap: var(--dl-space-space-halfunit);
+  width: 50%;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.email-contact-input4 {
+  gap: var(--dl-space-space-halfunit);
+  width: 50%;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.email-contact-container3 {
+  flex: 0 0 auto;
+  width: 50%;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.email-contact-input5 {
+  gap: var(--dl-space-space-halfunit);
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.email-contact-container4 {
+  gap: var(--dl-space-space-halfunit);
+  flex: 0 0 auto;
+  width: 50%;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.email-contact-checkbox1 {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+}
+.email-contact-button {
+  align-self: flex-start;
+}
+.email-contact-text20 {
+  display: inline-block;
+}
+.email-contact-text21 {
+  display: inline-block;
+}
+.email-contact-text22 {
+  display: inline-block;
+}
+.email-contact-text23 {
+  display: inline-block;
+}
+@media(max-width: 991px) {
+  .email-contact-container1 {
+    gap: var(--dl-space-space-twounits);
+    width: 100%;
+    flex-direction: row;
+  }
+  .email-contact-input1 {
+    width: 50%;
+  }
+  .email-contact-input2 {
+    width: 50%;
+    flex-direction: column;
+  }
+  .email-contact-container2 {
+    gap: var(--dl-space-space-twounits);
+    width: 100%;
+    flex-direction: row;
+  }
+  .email-contact-input3 {
+    width: 50%;
+  }
+  .email-contact-input4 {
+    width: 50%;
+  }
+  .email-contact-container3 {
+    gap: var(--dl-space-space-twounits);
+    width: 100%;
+    flex-direction: row;
+  }
+  .email-contact-input5 {
+    gap: var(--dl-space-space-halfunit);
+    width: 50%;
+    flex-direction: column;
+  }
+  .email-contact-container4 {
+    width: 100%;
+  }
+  .email-contact-checkbox1 {
+    align-self: flex-start;
+  }
+}
+@media(max-width: 767px) {
+  .email-contact-textarea {
+    flex: 1;
+  }
+}
+@media(max-width: 479px) {
+  .email-contact-text12 {
+    text-align: center;
+  }
+  .email-contact-form {
+    padding: var(--dl-space-space-unit);
+  }
+  .email-contact-container1 {
+    align-items: stretch;
+    flex-direction: column;
+  }
+  .email-contact-input1 {
+    width: 100%;
+  }
+  .email-contact-input2 {
+    width: 100%;
+  }
+  .email-contact-container2 {
+    align-items: stretch;
+    flex-direction: column;
+  }
+  .email-contact-input3 {
+    width: 100%;
+  }
+  .email-contact-input4 {
+    width: 100%;
+  }
+}

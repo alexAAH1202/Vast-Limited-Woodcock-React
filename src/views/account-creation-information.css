@@ -1,0 +1,36 @@
+.account-creation-information-container {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.account-creation-information-text1 {
+  display: inline-block;
+}
+.account-creation-information-text2 {
+  display: inline-block;
+}
+.account-creation-information-text3 {
+  display: inline-block;
+}
+.account-creation-information-text4 {
+  display: inline-block;
+}
+.account-creation-information-text5 {
+  display: inline-block;
+}
+.account-creation-information-text6 {
+  display: inline-block;
+}
+.account-creation-information-text7 {
+  display: inline-block;
+}
+.account-creation-information-text8 {
+  display: inline-block;
+}
+@media(max-width: 1600px) {
+  .account-creation-information-text7 {
+    color: var(--dl-color-theme-neutral-light);
+  }
+}

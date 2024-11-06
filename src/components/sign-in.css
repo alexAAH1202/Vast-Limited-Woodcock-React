@@ -1,0 +1,163 @@
+.sign-in-container1 {
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.sign-in-max-width {
+  gap: var(--dl-space-space-oneandhalfunits);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.sign-in-sign-in-container {
+  gap: var(--dl-space-space-unit);
+  width: 600px;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  max-width: 600px;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: var(--dl-radius-radius-radius4);
+  justify-content: center;
+}
+.sign-in-sign-in-form-box {
+  gap: var(--dl-space-space-twounits);
+  width: 100%;
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.sign-in-sign-in-title-root {
+  gap: var(--dl-space-space-halfunit);
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.sign-in-have-an-account-login {
+  gap: var(--dl-space-space-halfunit);
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-items: flex-start;
+}
+.sign-in-sign-in-form {
+  gap: var(--dl-space-space-unit);
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.sign-in-email {
+  gap: var(--dl-space-space-halfunit);
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.sign-in-sign-in-email {
+  width: 100%;
+  background-color: transparent;
+}
+.sign-in-password {
+  gap: var(--dl-space-space-halfunit);
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.sign-in-password-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.sign-in-hide-password {
+  gap: var(--dl-space-space-halfunit);
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-shrink: 1;
+  justify-content: center;
+}
+.sign-in-icon1 {
+  fill: var(--dl-color-theme-neutral-dark);
+  width: 24px;
+  height: 24px;
+}
+.sign-in-enter-password {
+  width: 100%;
+  border-color: var(--dl-color-theme-primary1);
+  background-color: transparent;
+}
+.sign-in-container2 {
+  gap: var(--dl-space-space-halfunit);
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.sign-in-sign-in-button-container {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.sign-in-sign-in-button {
+  width: 100%;
+  align-self: center;
+  text-decoration: none;
+}
+.sign-in-text3 {
+  text-align: center;
+}
+.sign-in-terms-agree {
+  gap: var(--dl-space-space-halfunit);
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  align-items: flex-start;
+}
+.sign-in-sign-in-issues-container {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.sign-in-forgot-password-link {
+  text-decoration:  underline none;
+}
+.sign-in-text7 {
+  display: inline-block;
+}
+.sign-in-text8 {
+  display: inline-block;
+}
+@media(max-width: 991px) {
+  .sign-in-sign-in-container {
+    width: 100%;
+    padding: var(--dl-space-space-fourunits);
+  }
+}
+@media(max-width: 479px) {
+  .sign-in-sign-in-container {
+    padding: var(--dl-space-space-oneandhalfunits);
+  }
+  .sign-in-sign-in-button {
+    width: 100%;
+  }
+}

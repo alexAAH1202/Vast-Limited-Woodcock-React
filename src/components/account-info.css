@@ -1,0 +1,555 @@
+.account-info-contact1 {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+}
+.account-info-section-title {
+  gap: var(--dl-space-space-unit);
+  align-items: center;
+}
+.account-info-content {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+.account-info-user-details {
+  gap: var(--dl-space-space-oneandhalfunits);
+  width: 100%;
+}
+.account-info-container1 {
+  gap: var(--dl-space-space-unit);
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.account-info-given-name-container {
+  gap: var(--dl-space-space-halfunit);
+  width: 50%;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.account-info-family-name-container {
+  gap: var(--dl-space-space-halfunit);
+  width: 50%;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.account-info-container2 {
+  gap: var(--dl-space-space-unit);
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.account-info-preferred-username {
+  gap: var(--dl-space-space-halfunit);
+  width: 50%;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.account-info-birthdate-container {
+  gap: var(--dl-space-space-halfunit);
+  width: 50%;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.account-info-contact {
+  gap: var(--dl-space-space-oneandhalfunits);
+  width: 100%;
+}
+.account-info-contact-details-container {
+  gap: var(--dl-space-space-unit);
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.account-info-email-address {
+  gap: var(--dl-space-space-halfunit);
+  width: 50%;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.account-info-phone-number-details {
+  gap: var(--dl-space-space-halfunit);
+  width: 50%;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.account-info-business-details {
+  gap: var(--dl-space-space-unit);
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.account-info-business-name {
+  gap: var(--dl-space-space-halfunit);
+  width: 50%;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.account-info-business-address {
+  gap: var(--dl-space-space-halfunit);
+  width: 50%;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.account-info-role {
+  gap: var(--dl-space-space-oneandhalfunits);
+  width: 100%;
+}
+.account-info-container3 {
+  flex: 0 0 auto;
+  width: 50%;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.account-info-user-role-container {
+  gap: var(--dl-space-space-halfunit);
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.account-info-container4 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.account-info-text20 {
+  margin-left: var(--dl-space-space-twounits);
+}
+.account-info-practice {
+  gap: var(--dl-space-space-oneandhalfunits);
+  width: 100%;
+}
+.account-info-container5 {
+  gap: var(--dl-space-space-unit);
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.account-info-provider-type-container {
+  gap: var(--dl-space-space-halfunit);
+  width: 50%;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.account-info-provider-details {
+  gap: var(--dl-space-space-halfunit);
+  width: 50%;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.account-info-container6 {
+  gap: var(--dl-space-space-unit);
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.account-info-ndis-provider-num {
+  gap: var(--dl-space-space-halfunit);
+  width: 50%;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.account-info-ahpra-reg {
+  gap: var(--dl-space-space-halfunit);
+  width: 50%;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.account-info-preferred-notification-container {
+  flex: 0 0 auto;
+  width: 50%;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.account-info-pref-notification {
+  gap: var(--dl-space-space-halfunit);
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.account-info-checkbox1 {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+}
+.account-info-text26 {
+  text-decoration: none;
+}
+.account-info-consent {
+  gap: var(--dl-space-space-oneandhalfunits);
+  width: 100%;
+}
+.account-info-container7 {
+  gap: var(--dl-space-space-unit);
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.account-info-cliniko-api {
+  gap: var(--dl-space-space-halfunit);
+  width: 50%;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.account-info-input1 {
+  gap: var(--dl-space-space-halfunit);
+  width: 50%;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.account-info-container8 {
+  gap: var(--dl-space-space-unit);
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.account-info-input2 {
+  gap: var(--dl-space-space-halfunit);
+  width: 50%;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.account-info-input3 {
+  gap: var(--dl-space-space-halfunit);
+  width: 50%;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.account-info-container9 {
+  flex: 0 0 auto;
+  width: 50%;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.account-info-payment-method {
+  gap: var(--dl-space-space-halfunit);
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.account-info-checkbox3 {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+}
+.account-info-text34 {
+  text-decoration: none;
+}
+.account-info-submit-account-info {
+  align-self: flex-start;
+}
+.account-info-text35 {
+  display: inline-block;
+}
+.account-info-text36 {
+  display: inline-block;
+}
+.account-info-text37 {
+  display: inline-block;
+}
+@media(max-width: 1600px) {
+  .account-info-text34 {
+    text-decoration: none;
+  }
+  .account-info-text36 {
+    color: var(--dl-color-theme-neutral-light);
+  }
+}
+@media(max-width: 1200px) {
+  .account-info-text26 {
+    text-decoration: none;
+  }
+}
+@media(max-width: 991px) {
+  .account-info-container1 {
+    gap: var(--dl-space-space-twounits);
+    width: 100%;
+    flex-direction: row;
+  }
+  .account-info-given-name-container {
+    width: 50%;
+  }
+  .account-info-family-name-container {
+    width: 50%;
+    flex-direction: column;
+  }
+  .account-info-container2 {
+    gap: var(--dl-space-space-twounits);
+    width: 100%;
+    flex-direction: row;
+  }
+  .account-info-preferred-username {
+    width: 50%;
+  }
+  .account-info-birthdate-container {
+    width: 50%;
+  }
+  .account-info-contact-details-container {
+    gap: var(--dl-space-space-twounits);
+    width: 100%;
+    flex-direction: row;
+  }
+  .account-info-email-address {
+    width: 50%;
+  }
+  .account-info-phone-number-details {
+    width: 50%;
+    flex-direction: column;
+  }
+  .account-info-business-details {
+    gap: var(--dl-space-space-twounits);
+    width: 100%;
+    flex-direction: row;
+  }
+  .account-info-business-name {
+    width: 50%;
+  }
+  .account-info-business-address {
+    width: 50%;
+  }
+  .account-info-container3 {
+    gap: var(--dl-space-space-twounits);
+    width: 100%;
+    flex-direction: row;
+  }
+  .account-info-user-role-container {
+    gap: var(--dl-space-space-halfunit);
+    width: 50%;
+    flex-direction: column;
+  }
+  .account-info-container5 {
+    gap: var(--dl-space-space-twounits);
+    width: 100%;
+    flex-direction: row;
+  }
+  .account-info-provider-type-container {
+    width: 50%;
+  }
+  .account-info-provider-details {
+    width: 50%;
+    flex-direction: column;
+  }
+  .account-info-container6 {
+    gap: var(--dl-space-space-twounits);
+    width: 100%;
+    flex-direction: row;
+  }
+  .account-info-ndis-provider-num {
+    width: 50%;
+  }
+  .account-info-ahpra-reg {
+    width: 50%;
+  }
+  .account-info-preferred-notification-container {
+    gap: var(--dl-space-space-twounits);
+    width: 100%;
+    flex-direction: row;
+  }
+  .account-info-pref-notification {
+    gap: var(--dl-space-space-halfunit);
+    width: 50%;
+    flex-direction: column;
+  }
+  .account-info-checkbox1 {
+    align-self: flex-start;
+  }
+  .account-info-container7 {
+    gap: var(--dl-space-space-twounits);
+    width: 100%;
+    flex-direction: row;
+  }
+  .account-info-cliniko-api {
+    width: 50%;
+  }
+  .account-info-input1 {
+    width: 50%;
+    flex-direction: column;
+  }
+  .account-info-container8 {
+    gap: var(--dl-space-space-twounits);
+    width: 100%;
+    flex-direction: row;
+  }
+  .account-info-input2 {
+    width: 50%;
+  }
+  .account-info-input3 {
+    width: 50%;
+  }
+  .account-info-container9 {
+    gap: var(--dl-space-space-twounits);
+    width: 100%;
+    flex-direction: row;
+  }
+  .account-info-payment-method {
+    gap: var(--dl-space-space-halfunit);
+    width: 50%;
+    flex-direction: column;
+  }
+  .account-info-checkbox3 {
+    align-self: flex-start;
+  }
+}
+@media(max-width: 479px) {
+  .account-info-user-details {
+    padding: var(--dl-space-space-unit);
+  }
+  .account-info-container1 {
+    align-items: stretch;
+    flex-direction: column;
+  }
+  .account-info-given-name-container {
+    width: 100%;
+  }
+  .account-info-family-name-container {
+    width: 100%;
+  }
+  .account-info-container2 {
+    align-items: stretch;
+    flex-direction: column;
+  }
+  .account-info-preferred-username {
+    width: 100%;
+  }
+  .account-info-birthdate-container {
+    width: 100%;
+  }
+  .account-info-contact {
+    padding: var(--dl-space-space-unit);
+  }
+  .account-info-contact-details-container {
+    align-items: stretch;
+    flex-direction: column;
+  }
+  .account-info-email-address {
+    width: 100%;
+  }
+  .account-info-phone-number-details {
+    width: 100%;
+  }
+  .account-info-business-details {
+    align-items: stretch;
+    flex-direction: column;
+  }
+  .account-info-business-name {
+    width: 100%;
+  }
+  .account-info-business-address {
+    width: 100%;
+  }
+  .account-info-role {
+    padding: var(--dl-space-space-unit);
+  }
+  .account-info-practice {
+    padding: var(--dl-space-space-unit);
+  }
+  .account-info-container5 {
+    align-items: stretch;
+    flex-direction: column;
+  }
+  .account-info-provider-type-container {
+    width: 100%;
+  }
+  .account-info-provider-details {
+    width: 100%;
+  }
+  .account-info-container6 {
+    align-items: stretch;
+    flex-direction: column;
+  }
+  .account-info-ndis-provider-num {
+    width: 100%;
+  }
+  .account-info-ahpra-reg {
+    width: 100%;
+  }
+  .account-info-consent {
+    padding: var(--dl-space-space-unit);
+  }
+  .account-info-container7 {
+    align-items: stretch;
+    flex-direction: column;
+  }
+  .account-info-cliniko-api {
+    width: 100%;
+  }
+  .account-info-input1 {
+    width: 100%;
+  }
+  .account-info-container8 {
+    align-items: stretch;
+    flex-direction: column;
+  }
+  .account-info-input2 {
+    width: 100%;
+  }
+  .account-info-input3 {
+    width: 100%;
+  }
+}

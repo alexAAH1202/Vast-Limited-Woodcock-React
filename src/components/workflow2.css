@@ -1,0 +1,145 @@
+.workflow2-layout253 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+.workflow2-max-width {
+  gap: var(--dl-space-space-threeunits);
+  display: flex;
+  align-items: flex-start;
+}
+.workflow2-section-title {
+  flex: 1;
+  align-items: flex-start;
+}
+.workflow2-content1 {
+  align-self: stretch;
+  align-items: flex-start;
+}
+.workflow2-content2 {
+  flex: 1;
+}
+.workflow2-list-item1 {
+  align-items: center;
+}
+.workflow2-content3 {
+  align-self: stretch;
+}
+.workflow2-title11 {
+  text-align: center;
+}
+.workflow2-description11 {
+  text-align: center;
+}
+.workflow2-content4 {
+  align-self: stretch;
+}
+.workflow2-title12 {
+  text-align: center;
+}
+.workflow2-description12 {
+  text-align: center;
+}
+.workflow2-list2 {
+  gap: 48px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.workflow2-content5 {
+  align-self: stretch;
+}
+.workflow2-title13 {
+  text-align: center;
+}
+.workflow2-description13 {
+  text-align: center;
+}
+.workflow2-content6 {
+  align-self: stretch;
+}
+.workflow2-title14 {
+  text-align: center;
+}
+.workflow2-description14 {
+  text-align: center;
+}
+.workflow2-text12 {
+  display: inline-block;
+}
+.workflow2-text13 {
+  display: inline-block;
+}
+.workflow2-text14 {
+  display: inline-block;
+}
+.workflow2-text15 {
+  display: inline-block;
+}
+.workflow2-text16 {
+  display: inline-block;
+}
+.workflow2-text17 {
+  display: inline-block;
+}
+.workflow2-text18 {
+  display: inline-block;
+}
+.workflow2-text19 {
+  display: inline-block;
+}
+.workflow2-text20 {
+  display: inline-block;
+}
+.workflow2-text21 {
+  display: inline-block;
+}
+.workflow2-text22 {
+  display: inline-block;
+}
+.workflow2-text23 {
+  display: inline-block;
+}
+@media(max-width: 991px) {
+  .workflow2-layout253 {
+    flex-direction: column;
+  }
+  .workflow2-max-width {
+    gap: var(--dl-space-space-twounits);
+    flex-direction: column;
+  }
+  .workflow2-section-title {
+    width: 100%;
+  }
+}
+@media(max-width: 767px) {
+  .workflow2-actions {
+    flex-wrap: wrap;
+  }
+}
+@media(max-width: 479px) {
+  .workflow2-max-width {
+    gap: var(--dl-space-space-oneandhalfunits);
+  }
+  .workflow2-actions {
+    width: 100%;
+  }
+  .workflow2-button1 {
+    width: 100%;
+  }
+  .workflow2-button2 {
+    width: 100%;
+  }
+  .workflow2-list1 {
+    flex-direction: column;
+  }
+  .workflow2-list2 {
+    flex-direction: column;
+  }
+}
