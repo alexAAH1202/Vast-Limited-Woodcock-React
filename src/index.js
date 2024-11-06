@@ -21,6 +21,9 @@ import DocumentCreation from './views/document-creation'
 import AccountCreationInformation from './views/account-creation-information'
 import Workflow3 from './views/workflow-3'
 import NotFound from './views/not-found'
+import Amplify from 'aws-amplify';
+import awsExports from './aws-exports'; 
+Amplify.configure(awsExports);
 
 const App = () => {
   return (
