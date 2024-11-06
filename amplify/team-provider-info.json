@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-vastlimitedwoodcockr-dev-08f39-authRole",
+      "UnauthRoleArn": "arn:aws:iam::970547368026:role/amplify-vastlimitedwoodcockr-dev-08f39-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::970547368026:role/amplify-vastlimitedwoodcockr-dev-08f39-authRole",
+      "Region": "ap-southeast-2",
+      "DeploymentBucketName": "amplify-vastlimitedwoodcockr-dev-08f39-deployment",
+      "UnauthRoleName": "amplify-vastlimitedwoodcockr-dev-08f39-unauthRole",
+      "StackName": "amplify-vastlimitedwoodcockr-dev-08f39",
+      "StackId": "arn:aws:cloudformation:ap-southeast-2:970547368026:stack/amplify-vastlimitedwoodcockr-dev-08f39/ce90e910-9c1e-11ef-b990-0a0834b3fb3f",
+      "AmplifyAppId": "d1nld9o4pwawqg"
+    }
+  }
+}
