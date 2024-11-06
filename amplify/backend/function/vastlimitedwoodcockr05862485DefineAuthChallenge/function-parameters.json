@@ -1,0 +1,16 @@
+{
+  "trigger": true,
+  "modules": [
+    "captcha-define-challenge"
+  ],
+  "parentResource": "vastlimitedwoodcockr05862485",
+  "functionName": "vastlimitedwoodcockr05862485DefineAuthChallenge",
+  "resourceName": "vastlimitedwoodcockr05862485DefineAuthChallenge",
+  "parentStack": "auth",
+  "triggerEnvs": "[]",
+  "triggerDir": "C:\\snapshot\\amplify-cli\\build\\node_modules\\@aws-amplify\\amplify-category-auth\\provider-utils\\awscloudformation\\triggers\\DefineAuthChallenge",
+  "triggerTemplate": "DefineAuthChallenge.json.ejs",
+  "triggerEventPath": "DefineAuthChallenge.event.json",
+  "roleName": "vastlimitedwoodcockr05862485DefineAuthChallenge",
+  "skipEdit": true
+}

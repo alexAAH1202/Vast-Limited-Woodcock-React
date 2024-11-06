@@ -1,1 +1,270 @@
-{}
+{
+  "auth": {
+    "vastlimitedwoodcockr05862485": {
+      "customAuth": true,
+      "dependsOn": [
+        {
+          "attributes": [
+            "Arn",
+            "Name"
+          ],
+          "category": "function",
+          "resourceName": "vastlimitedwoodcockr05862485DefineAuthChallenge",
+          "triggerProvider": "Cognito"
+        },
+        {
+          "attributes": [
+            "Arn",
+            "Name"
+          ],
+          "category": "function",
+          "resourceName": "vastlimitedwoodcockr05862485CreateAuthChallenge",
+          "triggerProvider": "Cognito"
+        },
+        {
+          "attributes": [
+            "Arn",
+            "Name"
+          ],
+          "category": "function",
+          "resourceName": "vastlimitedwoodcockr05862485VerifyAuthChallengeResponse",
+          "triggerProvider": "Cognito"
+        },
+        {
+          "attributes": [
+            "Arn",
+            "Name"
+          ],
+          "category": "function",
+          "resourceName": "vastlimitedwoodcockr05862485CustomMessage",
+          "triggerProvider": "Cognito"
+        },
+        {
+          "attributes": [
+            "Arn",
+            "Name"
+          ],
+          "category": "function",
+          "resourceName": "vastlimitedwoodcockr05862485PostConfirmation",
+          "triggerProvider": "Cognito"
+        },
+        {
+          "attributes": [
+            "Arn",
+            "Name"
+          ],
+          "category": "function",
+          "resourceName": "vastlimitedwoodcockr05862485PreSignup",
+          "triggerProvider": "Cognito"
+        }
+      ],
+      "frontendAuthConfig": {
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyCharacters": [],
+          "passwordPolicyMinLength": 8
+        },
+        "signupAttributes": [
+          "ADDRESS",
+          "BIRTHDATE",
+          "EMAIL",
+          "FAMILY_NAME",
+          "GIVEN_NAME",
+          "PHONE_NUMBER",
+          "PREFERRED_USERNAME",
+          "ZONEINFO"
+        ],
+        "socialProviders": [],
+        "usernameAttributes": [
+          "EMAIL"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerPlugin": "awscloudformation",
+      "service": "Cognito"
+    }
+  },
+  "function": {
+    "vastlimitedwoodcockr05862485CreateAuthChallenge": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "vastlimitedwoodcockr05862485CustomMessage": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "vastlimitedwoodcockr05862485DefineAuthChallenge": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "vastlimitedwoodcockr05862485PostConfirmation": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "vastlimitedwoodcockr05862485PreSignup": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "vastlimitedwoodcockr05862485VerifyAuthChallengeResponse": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_vastlimitedwoodcockr05862485CreateAuthChallenge_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "vastlimitedwoodcockr05862485CreateAuthChallenge"
+        }
+      ]
+    },
+    "AMPLIFY_function_vastlimitedwoodcockr05862485CreateAuthChallenge_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "vastlimitedwoodcockr05862485CreateAuthChallenge"
+        }
+      ]
+    },
+    "AMPLIFY_function_vastlimitedwoodcockr05862485CustomMessage_EMAILMESSAGE": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "vastlimitedwoodcockr05862485CustomMessage"
+        }
+      ]
+    },
+    "AMPLIFY_function_vastlimitedwoodcockr05862485CustomMessage_EMAILSUBJECT": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "vastlimitedwoodcockr05862485CustomMessage"
+        }
+      ]
+    },
+    "AMPLIFY_function_vastlimitedwoodcockr05862485CustomMessage_REDIRECTURL": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "vastlimitedwoodcockr05862485CustomMessage"
+        }
+      ]
+    },
+    "AMPLIFY_function_vastlimitedwoodcockr05862485CustomMessage_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "vastlimitedwoodcockr05862485CustomMessage"
+        }
+      ]
+    },
+    "AMPLIFY_function_vastlimitedwoodcockr05862485CustomMessage_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "vastlimitedwoodcockr05862485CustomMessage"
+        }
+      ]
+    },
+    "AMPLIFY_function_vastlimitedwoodcockr05862485DefineAuthChallenge_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "vastlimitedwoodcockr05862485DefineAuthChallenge"
+        }
+      ]
+    },
+    "AMPLIFY_function_vastlimitedwoodcockr05862485DefineAuthChallenge_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "vastlimitedwoodcockr05862485DefineAuthChallenge"
+        }
+      ]
+    },
+    "AMPLIFY_function_vastlimitedwoodcockr05862485PostConfirmation_GROUP": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "vastlimitedwoodcockr05862485PostConfirmation"
+        }
+      ]
+    },
+    "AMPLIFY_function_vastlimitedwoodcockr05862485PostConfirmation_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "vastlimitedwoodcockr05862485PostConfirmation"
+        }
+      ]
+    },
+    "AMPLIFY_function_vastlimitedwoodcockr05862485PostConfirmation_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "vastlimitedwoodcockr05862485PostConfirmation"
+        }
+      ]
+    },
+    "AMPLIFY_function_vastlimitedwoodcockr05862485PreSignup_DOMAINALLOWLIST": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "vastlimitedwoodcockr05862485PreSignup"
+        }
+      ]
+    },
+    "AMPLIFY_function_vastlimitedwoodcockr05862485PreSignup_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "vastlimitedwoodcockr05862485PreSignup"
+        }
+      ]
+    },
+    "AMPLIFY_function_vastlimitedwoodcockr05862485PreSignup_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "vastlimitedwoodcockr05862485PreSignup"
+        }
+      ]
+    },
+    "AMPLIFY_function_vastlimitedwoodcockr05862485VerifyAuthChallengeResponse_RECAPTCHASECRET": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "vastlimitedwoodcockr05862485VerifyAuthChallengeResponse"
+        }
+      ]
+    },
+    "AMPLIFY_function_vastlimitedwoodcockr05862485VerifyAuthChallengeResponse_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "vastlimitedwoodcockr05862485VerifyAuthChallengeResponse"
+        }
+      ]
+    },
+    "AMPLIFY_function_vastlimitedwoodcockr05862485VerifyAuthChallengeResponse_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "vastlimitedwoodcockr05862485VerifyAuthChallengeResponse"
+        }
+      ]
+    }
+  }
+}

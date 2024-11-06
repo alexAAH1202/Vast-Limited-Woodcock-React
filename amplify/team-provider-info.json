@@ -9,7 +9,45 @@
       "UnauthRoleName": "amplify-vastlimitedwoodcockr-dev-08f39-unauthRole",
       "StackName": "amplify-vastlimitedwoodcockr-dev-08f39",
       "StackId": "arn:aws:cloudformation:ap-southeast-2:970547368026:stack/amplify-vastlimitedwoodcockr-dev-08f39/ce90e910-9c1e-11ef-b990-0a0834b3fb3f",
-      "AmplifyAppId": "d1nld9o4pwawqg"
+      "AmplifyAppId": "d1nld9o4pwawqg",
+      "AuthTriggerTemplateURL": "https://s3.amazonaws.com/amplify-vastlimitedwoodcockr-dev-08f39-deployment/amplify-cfn-templates/auth/auth-trigger-cloudformation-template.json"
+    },
+    "categories": {
+      "auth": {
+        "vastlimitedwoodcockr05862485": {}
+      },
+      "function": {
+        "vastlimitedwoodcockr05862485DefineAuthChallenge": {
+          "deploymentBucketName": "amplify-vastlimitedwoodcockr-dev-08f39-deployment",
+          "s3Key": "amplify-builds/vastlimitedwoodcockr05862485DefineAuthChallenge-2b356772374b46707373-build.zip"
+        },
+        "vastlimitedwoodcockr05862485CreateAuthChallenge": {
+          "deploymentBucketName": "amplify-vastlimitedwoodcockr-dev-08f39-deployment",
+          "s3Key": "amplify-builds/vastlimitedwoodcockr05862485CreateAuthChallenge-75316438334c46594b62-build.zip"
+        },
+        "vastlimitedwoodcockr05862485VerifyAuthChallengeResponse": {
+          "RECAPTCHASECRET": "n",
+          "deploymentBucketName": "amplify-vastlimitedwoodcockr-dev-08f39-deployment",
+          "s3Key": "amplify-builds/vastlimitedwoodcockr05862485VerifyAuthChallengeResponse-65455a576e5056433347-build.zip"
+        },
+        "vastlimitedwoodcockr05862485CustomMessage": {
+          "REDIRECTURL": "www.hippohealth.com/dashboard",
+          "EMAILSUBJECT": "Confirm Your Email Address",
+          "EMAILMESSAGE": "Please click the link below to confirm your sign up email address for Hippo Health.",
+          "deploymentBucketName": "amplify-vastlimitedwoodcockr-dev-08f39-deployment",
+          "s3Key": "amplify-builds/vastlimitedwoodcockr05862485CustomMessage-5a4f34476e7858543576-build.zip"
+        },
+        "vastlimitedwoodcockr05862485PostConfirmation": {
+          "GROUP": "provider",
+          "deploymentBucketName": "amplify-vastlimitedwoodcockr-dev-08f39-deployment",
+          "s3Key": "amplify-builds/vastlimitedwoodcockr05862485PostConfirmation-686a716e636b63613336-build.zip"
+        },
+        "vastlimitedwoodcockr05862485PreSignup": {
+          "DOMAINALLOWLIST": "n",
+          "deploymentBucketName": "amplify-vastlimitedwoodcockr-dev-08f39-deployment",
+          "s3Key": "amplify-builds/vastlimitedwoodcockr05862485PreSignup-612b2f53457745423056-build.zip"
+        }
+      }
     }
   }
 }
